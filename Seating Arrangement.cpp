@@ -1,7 +1,6 @@
 class Solution {
-public:
-    int maxStudentsAlone(int k, int n, int m) {
-        // Step 1: Check if seating all students is possible
+  public:
+    int findMax(int k, int n, int m) {
         if (1LL * m * k < n) return -1;
 
         // Step 2: If enough benches for everyone to sit alone
